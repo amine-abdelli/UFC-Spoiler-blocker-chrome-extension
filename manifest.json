@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "UFC Spoiler Blocker",
+  "version": "1.0",
+  "description": "Automatically hides video titles from specified UFC-related YouTube channels to help you avoid spoilers and enjoy a cleaner browsing experience.UFC Spoiler Blocker is a Chrome extension designed to help you avoid spoilers from UFC-related content on YouTube. By automatically hiding video titles from specified UFC-related channels, this extension ensures you can browse YouTube without encountering unwanted spoilers.  ",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ]
+}
