@@ -1,0 +1,15 @@
+{
+  "name": "ufc-spoiler-blocker",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc && cp manifest.json dist/manifest.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

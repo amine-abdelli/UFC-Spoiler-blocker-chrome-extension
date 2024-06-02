@@ -12,10 +12,9 @@
         "*://www.youtube.com/*"
       ],
       "js": [
-        "content.js"
-      ],
-      "css": [
-        "styles.css"
+        "content.js",
+        "constants.js",
+        "helpers.js"
       ]
     }
   ]
